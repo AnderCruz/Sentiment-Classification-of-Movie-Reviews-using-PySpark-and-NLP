@@ -1,22 +1,20 @@
-# 🎬 Sentiment Classification of Movie Reviews using PySpark and NLP
+# Sentiment Classification of Movie Reviews using PySpark and NLP
 
 *A Natural Language Processing project using Spark MLlib*
 
 This project applies **Natural Language Processing (NLP)** techniques with **PySpark** to classify **movie reviews** from IMDb as either **positive** or **negative**.
 
-📊 Developed by **Nowa Analytics**, a consulting firm focused on data science, AI, and Big Data engineering.
+Developed by **Nowa Analytics**, a consulting firm focused on data science, AI, and Big Data engineering.
 
----
 
-## 🎯 Project Objective
+## Project Objective
 
 The goal of this project is to build a machine learning model capable of classifying **text reviews** based on their sentiment. We apply various **NLP preprocessing steps** and use **Spark MLlib** to build and evaluate a classification model.
 
 We work with a dataset of user-generated movie reviews labeled as **positive** or **negative**, and use **text processing techniques** to make this unstructured data understandable for a machine learning algorithm.
 
----
 
-## 📘 Key Learning Objectives
+## Key Learning Objectives
 
 * ✅ Learn the main steps in **Natural Language Processing (NLP)**
 * ✅ Clean and preprocess text data using **regular expressions**
@@ -26,9 +24,8 @@ We work with a dataset of user-generated movie reviews labeled as **positive** o
 * ✅ Train a **Decision Tree** classifier using PySpark MLlib
 * ✅ Evaluate model performance on unseen data
 
----
 
-## 🗃️ Dataset Description
+## Dataset Description
 
 * **Source**: IMDb (Internet Movie Database)
 * **Type**: Labeled text reviews
@@ -38,9 +35,8 @@ We work with a dataset of user-generated movie reviews labeled as **positive** o
   * `negative` – unfavorable movie reviews
 * **Format**: `.CSV` or `.TSV` containing text and label columns
 
----
 
-## ⚙️ Technologies and Libraries
+## Technologies and Libraries
 
 * Python 3.9+
 * Apache Spark (PySpark)
@@ -49,9 +45,8 @@ We work with a dataset of user-generated movie reviews labeled as **positive** o
 * Regex (for text cleaning)
 * Jupyter Notebook
 
----
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 📦 movie-review-sentiment-spark
@@ -67,9 +62,8 @@ We work with a dataset of user-generated movie reviews labeled as **positive** o
 └── requirements.txt       # Required Python libraries
 ```
 
----
 
-## 🧪 Main Steps in the Pipeline
+## Main Steps in the Pipeline
 
 1. **Text Preprocessing**
 
@@ -92,9 +86,7 @@ We work with a dataset of user-generated movie reviews labeled as **positive** o
 
    * Accuracy, Precision, Recall, F1-Score
 
----
-
-## 🚀 How to Run
+## How to Run
 
 1. Clone the repository:
 
@@ -121,9 +113,8 @@ jupyter notebook
 spark-submit src/sentiment_pipeline.py
 ```
 
----
 
-## ✅ Sample Results
+## Sample Results
 
 | Metric   | Value |
 | -------- | ----- |
@@ -132,17 +123,15 @@ spark-submit src/sentiment_pipeline.py
 
 > Results may vary depending on dataset size and preprocessing techniques.
 
----
 
-## 🧠 Key Insights
+## Key Insights
 
 * Words with high TF-IDF scores strongly influenced classification decisions.
 * Cleaning and removing irrelevant words greatly improved model performance.
 * PySpark’s scalable NLP tools make it easy to process large text datasets efficiently.
 
----
 
-## 🏢 About Nowa Analytics
+## About Nowa Analytics
 
 **Nowa Analytics** is a boutique consulting firm that specializes in data science, AI, and scalable data engineering. We help companies turn complex data into actionable insights using modern tools and cloud-based architectures.
 
